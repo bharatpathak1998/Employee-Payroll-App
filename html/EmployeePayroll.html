@@ -48,6 +48,36 @@
           </label>
         </div>
       </div>
+      <!-- UC4 Employee Payroll Form With Gender, Department and Salary Range -->
+      <div class="row-content">
+        <label class="label text" for="gender">Gender</label>
+        <div>
+          <input type="radio" id="male" name="gender" value="male">
+          <label class="text" for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label class="text" for="female">Female</label>
+        </div>
+      </div>
+      <div class="row-content">
+        <label class="label text" for="department">Department</label>
+        <div>
+          <input type="checkbox" id="hr" name="hr" value="HR">
+          <label class="text" for="hr">HR</label>
+          <input type="checkbox" id="sales" name="sales" value="Sales">
+          <label class="text" for="sales">Sales</label>
+          <input type="checkbox" id="finance" name="finance" value="Finance">
+          <label class="text" for="finance">Finance</label>
+          <input type="checkbox" id="engineer" name="engineer" value="Engineer">
+          <label class="text" for="engineer">Engineer</label>
+          <input type="checkbox" id="others" name="others" value="Others">
+          <label class="text" for="others">Others</label>
+        </div>
+      </div>
+      <div class="row-content">
+        <label class="label text" for="salary">Choose your salary: </label>
+        <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
+        <output class="salary-output text" for="salary">400000</output>
+      </div>
     </form>
   </div>
 </body>
